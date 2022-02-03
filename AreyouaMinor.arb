@@ -1,0 +1,7 @@
+age = gets.chomp
+
+if age.to_i >= 21
+    puts "Congratulations, you can vote, smoke, and drink!"
+else
+    puts "Looks like you are a minor."
+end
